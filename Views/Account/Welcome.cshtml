@@ -1,0 +1,37 @@
+﻿@model app_to_do_mysql.Models.DogViewModel
+
+@{
+    ViewData["Title"] = "Bienvenido";
+}
+
+<h1 style="font-size: 60px; color: #ff69b4; font-weight: bold; text-align: center; margin-bottom: 0;">
+    BRI
+</h1>
+
+<h2 style="text-align: center;">Bienvenido al sistema</h2>
+<p style="text-align: center;">Autenticación exitosa.</p>
+
+<div style="text-align: center;">
+
+    @if (!string.IsNullOrWhiteSpace(Model.ImagenUrl))
+    {
+        <img src="@Model.ImagenUrl" alt="Perrito del día" style="max-width:400px; border-radius:12px;" />
+    }
+    else
+    {
+        <p style="color:#c0392b;">@Model.Mensaje</p>
+    }
+
+    <br />
+    <br />
+
+    <form asp-controller="Account" asp-action="Welcome" method="get" style="display:inline;">
+        <button type="submit">Ver otro perrito</button>
+    </form>
+
+    <br />
+    <br />
+
+    <a asp-controller="Account" asp-action="Login">Cerrar sesión</a>
+
+</div>
