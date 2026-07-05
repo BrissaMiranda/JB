@@ -1,4 +1,4 @@
-﻿namespace app_to_do_mysql.Models
+﻿namespace JB.Models
 {
     public class Usuario
     {

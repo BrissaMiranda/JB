@@ -1,8 +1,8 @@
-using app_to_do_mysql.Models;
+using JB.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace app_to_do_mysql.Controllers
+namespace JB.Controllers
 {
     public class HomeController : Controller
     {

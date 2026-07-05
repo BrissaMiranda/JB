@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using app_to_do_mysql.Services;
+using JB.Services;
 
-namespace app_to_do_mysql.Controllers
+namespace JB.Controllers
 {
     public class DogController : Controller
     {

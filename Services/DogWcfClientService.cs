@@ -1,6 +1,6 @@
-﻿using app_to_do_mysql.Models;
+﻿using JB.Models;
 
-namespace app_to_do_mysql.Services
+namespace JB.Services
 {
     public class DogWcfClientService
     {

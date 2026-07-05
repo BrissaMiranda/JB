@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using app_to_do_mysql.Models;
-using app_to_do_mysql.Services;
+using JB.Models;
+using JB.Services;
 
-namespace app_to_do_mysql.Controllers
+namespace JB.Controllers
 {
     public class AccountController : Controller
     {

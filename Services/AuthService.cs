@@ -1,7 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using Microsoft.Extensions.Configuration;
 
-namespace app_to_do_mysql.Services
+namespace JB.Services
 {
     public class AuthService
     {
